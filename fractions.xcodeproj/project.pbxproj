@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE4F3592838430F00EC0BE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F3582838430F00EC0BE7 /* main.swift */; };
+		1EE4F3602838436200EC0BE7 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F35F2838436200EC0BE7 /* Fraction.swift */; };
+		1EE4F36828388C4B00EC0BE7 /* fractionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F36728388C4B00EC0BE7 /* fractionsTests.swift */; };
+		1EE4F36C28388DD200EC0BE7 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F35F2838436200EC0BE7 /* Fraction.swift */; };
+		1EE4F36E283896A600EC0BE7 /* AuxiliaryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F36D283896A600EC0BE7 /* AuxiliaryFunctions.swift */; };
+		1EE4F36F283896A600EC0BE7 /* AuxiliaryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F36D283896A600EC0BE7 /* AuxiliaryFunctions.swift */; };
+		1EE4F3712839580A00EC0BE7 /* AuxiliaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F3702839580A00EC0BE7 /* AuxiliaryTests.swift */; };
+		1EE4F373283989DF00EC0BE7 /* Fraction+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F372283989DE00EC0BE7 /* Fraction+Operations.swift */; };
+		1EE4F374283989DF00EC0BE7 /* Fraction+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F372283989DE00EC0BE7 /* Fraction+Operations.swift */; };
+		1EE4F37628398A7800EC0BE7 /* OperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F37528398A7800EC0BE7 /* OperationsTests.swift */; };
+		1EE4F378283ADD4500EC0BE7 /* Fraction+StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F377283ADD4500EC0BE7 /* Fraction+StringLiteral.swift */; };
+		1EE4F379283ADD4500EC0BE7 /* Fraction+StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F377283ADD4500EC0BE7 /* Fraction+StringLiteral.swift */; };
+		1EE4F37E283C63EC00EC0BE7 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F37D283C63EC00EC0BE7 /* CLI.swift */; };
+		1EE4F37F283C63EC00EC0BE7 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F37D283C63EC00EC0BE7 /* CLI.swift */; };
+		1EE4F381283C687D00EC0BE7 /* CommandLineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F380283C687D00EC0BE7 /* CommandLineService.swift */; };
+		1EE4F382283C687D00EC0BE7 /* CommandLineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F380283C687D00EC0BE7 /* CommandLineService.swift */; };
+		1EE4F384283C6A6800EC0BE7 /* CLITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F383283C6A6800EC0BE7 /* CLITests.swift */; };
+		1EE4F386283C806A00EC0BE7 /* ArithmeticExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F385283C806A00EC0BE7 /* ArithmeticExpression.swift */; };
+		1EE4F387283C806A00EC0BE7 /* ArithmeticExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F385283C806A00EC0BE7 /* ArithmeticExpression.swift */; };
+		1EE4F38C283C905B00EC0BE7 /* ArithmeticExpressionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4F38B283C905B00EC0BE7 /* ArithmeticExpressionsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EE4F3532838430F00EC0BE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EE4F3552838430F00EC0BE7 /* fractions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fractions; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE4F3582838430F00EC0BE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1EE4F35F2838436200EC0BE7 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		1EE4F36528388C4B00EC0BE7 /* fractionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fractionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE4F36728388C4B00EC0BE7 /* fractionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fractionsTests.swift; sourceTree = "<group>"; };
+		1EE4F36D283896A600EC0BE7 /* AuxiliaryFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxiliaryFunctions.swift; sourceTree = "<group>"; };
+		1EE4F3702839580A00EC0BE7 /* AuxiliaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxiliaryTests.swift; sourceTree = "<group>"; };
+		1EE4F372283989DE00EC0BE7 /* Fraction+Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fraction+Operations.swift"; sourceTree = "<group>"; };
+		1EE4F37528398A7800EC0BE7 /* OperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsTests.swift; sourceTree = "<group>"; };
+		1EE4F377283ADD4500EC0BE7 /* Fraction+StringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fraction+StringLiteral.swift"; sourceTree = "<group>"; };
+		1EE4F37D283C63EC00EC0BE7 /* CLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
+		1EE4F380283C687D00EC0BE7 /* CommandLineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineService.swift; sourceTree = "<group>"; };
+		1EE4F383283C6A6800EC0BE7 /* CLITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLITests.swift; sourceTree = "<group>"; };
+		1EE4F385283C806A00EC0BE7 /* ArithmeticExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticExpression.swift; sourceTree = "<group>"; };
+		1EE4F38B283C905B00EC0BE7 /* ArithmeticExpressionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticExpressionsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE4F3522838430F00EC0BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE4F36228388C4B00EC0BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE4F34C2838430F00EC0BE7 = {
+			isa = PBXGroup;
+			children = (
+				1EE4F3572838430F00EC0BE7 /* fractions */,
+				1EE4F36628388C4B00EC0BE7 /* fractionsTests */,
+				1EE4F3562838430F00EC0BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE4F3562838430F00EC0BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4F3552838430F00EC0BE7 /* fractions */,
+				1EE4F36528388C4B00EC0BE7 /* fractionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE4F3572838430F00EC0BE7 /* fractions */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4F3582838430F00EC0BE7 /* main.swift */,
+				1EE4F35F2838436200EC0BE7 /* Fraction.swift */,
+				1EE4F377283ADD4500EC0BE7 /* Fraction+StringLiteral.swift */,
+				1EE4F372283989DE00EC0BE7 /* Fraction+Operations.swift */,
+				1EE4F36D283896A600EC0BE7 /* AuxiliaryFunctions.swift */,
+				1EE4F37D283C63EC00EC0BE7 /* CLI.swift */,
+				1EE4F380283C687D00EC0BE7 /* CommandLineService.swift */,
+				1EE4F385283C806A00EC0BE7 /* ArithmeticExpression.swift */,
+			);
+			path = fractions;
+			sourceTree = "<group>";
+		};
+		1EE4F36628388C4B00EC0BE7 /* fractionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4F36728388C4B00EC0BE7 /* fractionsTests.swift */,
+				1EE4F37528398A7800EC0BE7 /* OperationsTests.swift */,
+				1EE4F3702839580A00EC0BE7 /* AuxiliaryTests.swift */,
+				1EE4F383283C6A6800EC0BE7 /* CLITests.swift */,
+				1EE4F38B283C905B00EC0BE7 /* ArithmeticExpressionsTests.swift */,
+			);
+			path = fractionsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE4F3542838430F00EC0BE7 /* fractions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE4F35C2838430F00EC0BE7 /* Build configuration list for PBXNativeTarget "fractions" */;
+			buildPhases = (
+				1EE4F3512838430F00EC0BE7 /* Sources */,
+				1EE4F3522838430F00EC0BE7 /* Frameworks */,
+				1EE4F3532838430F00EC0BE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fractions;
+			productName = fractions;
+			productReference = 1EE4F3552838430F00EC0BE7 /* fractions */;
+			productType = "com.apple.product-type.tool";
+		};
+		1EE4F36428388C4B00EC0BE7 /* fractionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE4F36928388C4B00EC0BE7 /* Build configuration list for PBXNativeTarget "fractionsTests" */;
+			buildPhases = (
+				1EE4F36128388C4B00EC0BE7 /* Sources */,
+				1EE4F36228388C4B00EC0BE7 /* Frameworks */,
+				1EE4F36328388C4B00EC0BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fractionsTests;
+			productName = fractionsTests;
+			productReference = 1EE4F36528388C4B00EC0BE7 /* fractionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE4F34D2838430F00EC0BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1EE4F3542838430F00EC0BE7 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					1EE4F36428388C4B00EC0BE7 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 1EE4F3502838430F00EC0BE7 /* Build configuration list for PBXProject "fractions" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EE4F34C2838430F00EC0BE7;
+			productRefGroup = 1EE4F3562838430F00EC0BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE4F3542838430F00EC0BE7 /* fractions */,
+				1EE4F36428388C4B00EC0BE7 /* fractionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE4F36328388C4B00EC0BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE4F3512838430F00EC0BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE4F3592838430F00EC0BE7 /* main.swift in Sources */,
+				1EE4F373283989DF00EC0BE7 /* Fraction+Operations.swift in Sources */,
+				1EE4F3602838436200EC0BE7 /* Fraction.swift in Sources */,
+				1EE4F37E283C63EC00EC0BE7 /* CLI.swift in Sources */,
+				1EE4F36E283896A600EC0BE7 /* AuxiliaryFunctions.swift in Sources */,
+				1EE4F378283ADD4500EC0BE7 /* Fraction+StringLiteral.swift in Sources */,
+				1EE4F381283C687D00EC0BE7 /* CommandLineService.swift in Sources */,
+				1EE4F386283C806A00EC0BE7 /* ArithmeticExpression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE4F36128388C4B00EC0BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE4F384283C6A6800EC0BE7 /* CLITests.swift in Sources */,
+				1EE4F36828388C4B00EC0BE7 /* fractionsTests.swift in Sources */,
+				1EE4F379283ADD4500EC0BE7 /* Fraction+StringLiteral.swift in Sources */,
+				1EE4F36C28388DD200EC0BE7 /* Fraction.swift in Sources */,
+				1EE4F37F283C63EC00EC0BE7 /* CLI.swift in Sources */,
+				1EE4F3712839580A00EC0BE7 /* AuxiliaryTests.swift in Sources */,
+				1EE4F38C283C905B00EC0BE7 /* ArithmeticExpressionsTests.swift in Sources */,
+				1EE4F37628398A7800EC0BE7 /* OperationsTests.swift in Sources */,
+				1EE4F382283C687D00EC0BE7 /* CommandLineService.swift in Sources */,
+				1EE4F36F283896A600EC0BE7 /* AuxiliaryFunctions.swift in Sources */,
+				1EE4F374283989DF00EC0BE7 /* Fraction+Operations.swift in Sources */,
+				1EE4F387283C806A00EC0BE7 /* ArithmeticExpression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EE4F35A2838430F00EC0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EE4F35B2838430F00EC0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1EE4F35D2838430F00EC0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J72P72P4M4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EE4F35E2838430F00EC0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J72P72P4M4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1EE4F36A28388C4B00EC0BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J72P72P4M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnxsoftware.utilities.fractionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EE4F36B28388C4B00EC0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J72P72P4M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fnxsoftware.utilities.fractionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE4F3502838430F00EC0BE7 /* Build configuration list for PBXProject "fractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE4F35A2838430F00EC0BE7 /* Debug */,
+				1EE4F35B2838430F00EC0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE4F35C2838430F00EC0BE7 /* Build configuration list for PBXNativeTarget "fractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE4F35D2838430F00EC0BE7 /* Debug */,
+				1EE4F35E2838430F00EC0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE4F36928388C4B00EC0BE7 /* Build configuration list for PBXNativeTarget "fractionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE4F36A28388C4B00EC0BE7 /* Debug */,
+				1EE4F36B28388C4B00EC0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EE4F34D2838430F00EC0BE7 /* Project object */;
+}
